@@ -29,7 +29,7 @@ banner = """
     ░▀▀░░▀▀▀░▀▀▀░░▀░
  U͞N͞T͞U͞K͞ M͞E͞M͞P͞E͞R͞M͞U͞D͞A͞H͞ H͞I͞D͞U͞P͞ A͞N͞D͞A͞
  Creator: Jeeyhosting
- https://github.com/SAMTROOFFICIAL3300/SCRIPTENCBY
+ https://github.com/Jeeyhosting/SKRIPJEEY
 """.format(D, W, D, W, D, W, Y, W, D, W, D, W, D, W, D, Y, D, W, D, Y, D, G, W, G, D, G, W, G, Y, D, Y, D, Y, D, Y, D, Y)
 
 banner2 = """
@@ -76,11 +76,13 @@ def enkrip():
         print(eror + " File Not Found!")
 
 # Memilih mode enkripsi/dekripsi
-takok = input(W + "Choose" + G + " > ")
-
-if takok == "1" or takok == "01":
-    enkrip()
-elif takok == "2" or takok == "02":
-    dekrip()
-else:
-    print(eror + " Wrong input")
+try:
+    takok = input(W + "Choose" + G + " > ")
+    if takok == "1":
+        enkrip()
+    elif takok == "2":
+        dekrip()
+    else:
+        print(eror + " Wrong input")
+except KeyboardInterrupt:
+    print(eror + " Exited!")
