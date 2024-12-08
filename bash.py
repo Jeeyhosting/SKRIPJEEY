@@ -1,5 +1,5 @@
-# author : @Jeeyhosting
-# -*- coding: MohamadAbubakar-*-
+# author : @SamtroOfficial
+# -*- coding: utf-8 -*-
 #
 import os
 
