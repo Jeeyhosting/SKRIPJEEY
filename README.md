@@ -7,9 +7,9 @@ $ pkg install git
 $ pkg install nodejs
 $ pkg install python2
 $ npm install -g bash-obfuscate
-$ git clone https://github.com/SAMTROOFFICIAL3300/SCRIPTENCBY
+$ git clone https://github.com/Jeeyhosting/SKRIPJEEY
 $ ls
-$ cd SCRIPTENCBY
+$ cd SKRIPJEEY
 $ python2 bash.py
 
 
